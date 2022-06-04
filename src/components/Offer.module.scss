@@ -1,0 +1,56 @@
+@font-face {
+ font-family: "outfit";
+ src: url("../assets/Outfit-Bold.ttf");
+}
+
+.container {
+ background-color: #222222;
+ max-width: 700px;
+ padding: 20px 60px;
+ color: #ffffff;
+ font-family: outfit;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.description {
+ img {
+  width: 700px;
+ }
+}
+
+.title {
+ font-size: 30px;
+ h3 {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ }
+}
+
+.tagContainer {
+ display: flex;
+ flex-direction: row;
+ .tag {
+  border: 1px solid #ffffff;
+  border-radius: 25px;
+  margin-right: 5px;
+  padding: 2px 5px;
+ }
+}
+
+.buttonContainer {
+ display: flex;
+ justify-content: center;
+ .applyButton {
+  background-color: #7b00f5;
+  margin-top: 20px;
+  padding: 10px 120px;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: outfit;
+  color: #ffffff;
+  cursor: pointer;
+ }
+}
